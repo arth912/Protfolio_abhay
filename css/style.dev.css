@@ -2666,7 +2666,7 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 #top-menu li li a {
-	width: 200px;
+	width:fit-content;
 	padding: 6px 20px;
 }
 
@@ -6773,7 +6773,7 @@ a.et_pb_more_button:after,
 .nav li ul {
 	visibility: hidden;
 	z-index: 9999;
-	width: 240px;
+	width: 330px;
 	border-top: 3px solid #2ea3f2;
 	opacity: 0;
 	background: #fff;
@@ -6800,7 +6800,7 @@ a.et_pb_more_button:after,
 .nav li li ul {
 	z-index: 1000;
 	top: -23px;
-	left: 240px;
+	left: 300px;
 }
 
 .nav li.et-reverse-direction-nav li ul {

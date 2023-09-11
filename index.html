@@ -394,6 +394,7 @@
 	</style>
 	<link rel="stylesheet" id="parent-style-css" href="css/style.dev.css" type="text/css" media="all">
 	<link rel="stylesheet" id="divi-style-css" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 	<link rel="stylesheet" id="et-shortcodes-responsive-css-css" href="css/shortcodes_responsive.css" type="text/css"
 		media="all">
@@ -429,8 +430,14 @@
 	<meta name="msvalidate.01" content="9C546968529A1B5BA0858B23633338F7">
 	<link rel="stylesheet" id="et-core-unified-cached-inline-styles" href="css/et-core-unified-16887951673284.min.css"
 		onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)">
-	<script data-cfasync="false" id="ao_optimized_gfonts_webfontloader"
-		type="text/javascript">(function () { var wf = document.createElement('script'); wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })();</script>
+	<script data-cfasync="false" id="ao_optimized_gfonts_webfontloader" type="text/javascript">(function () { var wf = document.createElement('script'); wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })();
+	</script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+
 </head>
 
 <body
@@ -441,7 +448,7 @@
 
 		<header id="main-header" data-height-onload="66">
 			<div class="container clearfix et_menu_container">
-				<div class="logo_container">
+				<!-- <div class="logo_container">
 					<span class="logo_helper"></span>
 					<a href="index.html">
 						<noscript><img src="images/logo-dark%402x.png"
@@ -452,81 +459,115 @@
 							alt="Jack Parrish&#039;s Digital Resume and Portfolio" id="logo"
 							data-height-percentage="49">
 					</a>
-				</div>
+				</div> -->
 				<div id="et-top-navigation" data-height="66" data-fixed-height="40">
 					<nav id="top-menu-nav">
 						<ul id="top-menu" class="nav">
 							<li id="menu-item-11"
 								class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11">
-								<a href="index.html" aria-current="page">Home</a></li>
+								<a href="index.html" aria-current="page">Home</a>
+							</li>
 							<li id="menu-item-1416"
 								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1416">
 								<a>Portfolio</a>
-								<ul class="sub-menu">
+								<ul class="sub-menu" style="width: 300px;">
 									<li id="menu-item-1379"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1379">
-										<a href="#">Graphic Design</a>
-										<ul class="sub-menu">
-											<li id="menu-item-1377"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1377">
-												<a href="personal-logo.html">Personal Logo</a></li>
-											<li id="menu-item-1376"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1376">
-												<a href="sample-infographic.html">Sample Infographic</a></li>
-											<li id="menu-item-1375"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1375">
-												<a href="the-tradesman.html">The Tradesman</a></li>
-										</ul>
+										class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1379">
+										<div>
+											<a href="scenario.html">Scenario</a>
+										</div>
 									</li>
 									<li id="menu-item-1374"
 										class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1374">
-										<a href="photography_1.html">Photography</a></li>
+										<div style="width:250px;"><a href="research_planning.html">Research & Planning</a>
+										</div>
+									</li>
 									<li id="menu-item-1378"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1378">
-										<a href="#">Web Design</a>
-										<ul class="sub-menu">
-											<li id="menu-item-1369"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1369">
-												<a href="stand-up-auburn.html">Stand Up Auburn</a></li>
-											<li id="menu-item-1370"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1370">
-												<a href="the-saddle-guy.html">The Saddle Guy</a></li>
-										</ul>
+										<div style="width:250px;"><a href="strategy_development.html">Strategy Development</a></div>
 									</li>
 									<li id="menu-item-1380"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1380">
-										<a href="#">Writing Samples</a>
+										<div class="d-flex align-middle">
+											<div style="width:250px;"><a href="key_relation_mapping.html">Key Relation Mapping</a></div>
+										</div>
+									</li>
+									<li id="menu-item-1381"
+										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
+										<div class="d-flex align-middle">
+											<div style="width:250px;"><a href="message_development.html">Message Development</a></div>
+										</div>
+									</li>
+									<li id="menu-item-1381"
+										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
+										<div class="d-flex align-middle">
+											<div style="width:250px;"><a href="index.html">Media Relation</a></div>
+											<div class="mt-2">
+												<i class="bi bi-chevron-right text-light"></i>
+											</div>
+										</div>
 										<ul class="sub-menu">
-											<li id="menu-item-2167"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2167">
-												<a href="https://www.bewellauburn.com/?author=577478babebafbbc2164e427">Be
-													Well Blog Posts</a></li>
-											<li id="menu-item-1878"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1878">
-												<a href="Baylor-Case-Study-Report-PRCM-2500-33015.pdf">Sample Case
-													Study</a></li>
-											<li id="menu-item-1272"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1272">
-												<a href="https://samplemediakit.wordpress.com">Sample Media Kit</a></li>
-											<li id="menu-item-1086"
-												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1086">
-												<a href="Writing-Sample-Press-Release.pdf">Sample Press Release</a></li>
-											<li id="menu-item-1372"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1372">
-												<a href="social-media-release.html">Social Media Release</a></li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="media_advisory.html" style="width:250px;">Media advisory</a>
+											</li>
 										</ul>
 									</li>
 									<li id="menu-item-1381"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
-										<a href="#">Videography</a>
+										<div class="d-flex align-middle">
+											<div style="width:250px;"><a href="index.html">Content Creation</a></div>
+											<div class="mt-2">
+												<i class="bi bi-chevron-right text-light"></i>
+											</div>
+										</div>
 										<ul class="sub-menu">
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
-												<a href="dig-in.html">Dig In</a></li>
-											<li id="menu-item-1371"
-												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1371">
-												<a href="workout-wednesday.html">Workout Wednesday</a></li>
+												<a href="memorandum.html" style="width:300px;">Memorandum</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="mission_statement.html" style="width:300px;">Mission Statement</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="pitch_letter.html" style="width:300px;">Pitch Letter</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="psa_script.html" style="width:300px;">PSA Script</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="news_releases.html" style="width:300px;">News Releases</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="mock_interview.html" style="width:300px;">Mock Interview | Media
+													Preparation</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="ceo_blog.html" style="width:300px;">CEO Blog</a>
+											</li>
+											<li id="menu-item-2160"
+												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
+												<a href="sponsored_content.html" style="width:300px;">Sponsored Content</a>
+											</li>
 										</ul>
+									</li>
+									<li id="menu-item-1381"
+										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
+										<div class="d-flex align-middle">
+											<div style="width:250px;"><a href="execution_implementation.html">Execution & Implementation</a></div>
+										</div>
+									</li>
+									<li id="menu-item-1381"
+										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
+										<div class="d-flex align-middle">
+											<div style="width:250px;"><a href="monitor_evaluation.html">Monitor & Evaluation</a></div>
+										</div>
 									</li>
 								</ul>
 							</li>
@@ -536,19 +577,34 @@
 								<ul class="sub-menu">
 									<li id="menu-item-961"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961">
-										<a href="experience.html">Experience</a></li>
+										<div style="width:250px;">
+											<a href="experience.html">Experience</a>
+										</div>
+									</li>
 									<li id="menu-item-960"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960">
-										<a href="education.html">Education</a></li>
+										<div style="width:250px;">
+											<a href="education.html">Education</a>
+										</div>
+									</li>
 									<li id="menu-item-958"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958">
-										<a href="involvement.html">Involvement</a></li>
+										<div style="width:250px;">
+											<a href="involvement.html">Involvement</a>
+										</div>
+									</li>
 									<li id="menu-item-959"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959">
-										<a href="skills.html">Skills</a></li>
+										<div style="width:250px;">
+											<a href="skills.html">Skills</a>
+										</div>
+									</li>
 									<li id="menu-item-1027"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1027">
-										<a href="Resume.pdf">PDF Resume</a></li>
+										<div style="width:250px;">
+											<a href="Resume.pdf">PDF Resume</a>
+										</div>
+									</li>
 								</ul>
 							</li>
 							<li id="menu-item-1384"
@@ -556,10 +612,10 @@
 									href="my-blog.html">My Blog</a></li>
 							<li id="menu-item-1414"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1414"><a
-									href="about-jack-parrish.html">About</a></li>
+									href="about.html">About</a></li>
 							<li id="menu-item-1383"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"><a
-									href="about-jack-parrish.html">Contact Me</a></li>
+									href="contact.html">Contact Me</a></li>
 						</ul>
 					</nav>
 
@@ -619,27 +675,33 @@
 												<div class="header-content">
 													<h1 class="et_pb_module_header">A little about me.</h1>
 													<div class="et_pb_header_content_wrapper">
-														<p style="text-align: left;">I’m Jack Parrish, and I’m a little
-															different. Not just in a “everybody’s different” way,
-															either. I’m forward-thinking, but I’m unashamed of my roots.
-															I enjoy my work, and I thrive in a fast-paced environment. I
-															need to be moving, bouncing between tasks.</p>
+														<p style="text-align: left;">Once upon a time, I Abhay Parekh,
+															was torn between my love for technology and my passion for
+															communication. I had a Bachelor's degree in Computer
+															Engineering, but I was always drawn to the world of
+															marketing and public relations.</p>
 														<p>&nbsp;</p>
-														<p style="text-align: left;">Whether I’m listening to the latest
-															podcast from NPR, viewing the world through my camera lens,
-															or watching Photoshop tutorials in my spare time, I’m always
-															looking to grow, both as a professional and as an
-															individual. I’m blessed beyond belief, and I’m eager to help
-															others.</p>
+														<p style="text-align: left;">One day, I made a bold decision to
+															pursue my dream and enrolled in a Public Relations program.
+															I quickly found that the strategic and creative approach to
+															communication was my calling. My background in engineering
+															gave me a unique perspective on problem-solving and
+															analysis, which I used to create impactful campaigns that
+															resonated with audiences.</p>
 														<p>&nbsp;</p>
-														<p style="text-align: left;">Through my Auburn education and
-															work experiences, I’ve learned much about the world of
-															public relations and marketing. I value the lessons I’ve
-															received, and I look forward to learning more about this
-															exciting field.</p>
+														<p style="text-align: left;">Through academic projects and
+															personal projects, I honed my skills in social media
+															management, content creation, and event planning. I was
+															constantly inspired by the power of communication to bring
+															people together and tell compelling stories.</p>
+														<p>&nbsp;</p>
+														<p style="text-align: left;">Now, I am excited to continue my
+															journey in the field of public relations and make a
+															meaningful impact. I look forward to bringing my unique
+															blend of skills and expertise to create innovative and
+															effective campaigns that inspire and engage audiences.
+														</p>
 													</div>
-													<a class="et_pb_button et_pb_more_button et_pb_button_one"
-														href>Learn More!</a>
 												</div>
 											</div>
 										</div>
@@ -650,26 +712,18 @@
 
 								</div> <!-- .et_pb_section -->
 								<div class="et_pb_section et_pb_section_2 et_section_regular">
-
-
-
-
 									<div class="et_pb_row et_pb_row_0 et_pb_equal_columns et_pb_gutters1">
 										<div
 											class="et_pb_column et_pb_column_1_3 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
-
-
 											<div
 												class="et_pb_module et_pb_cta_0 et_pb_promo et_pb_bg_layout_dark  et_pb_text_align_center">
-
-
 												<div class="et_pb_promo_description">
 													<h2 class="et_pb_module_header">Motivated</h2>
 													<p style="text-align: left;">Whether I’m in the workplace or the
 														classroom, I’m driven to succeed. Throughout my time in college,
 														I worked multiple jobs to pay the bills, pushing myself to excel
-														in the classroom. Through hard work (and a little luck), I left
-														Auburn University with a 4.0 GPA through all 4 years.</p>
+														in the classroom. Through hard work (and a little luck), I excel
+														in study.</p>
 												</div>
 
 											</div>
@@ -685,10 +739,12 @@
 												<div class="et_pb_promo_description">
 													<h2 class="et_pb_module_header">Positive</h2>
 													<p style="text-align: left;">Every day, I bring a cheerful,
-														uplifting attitude to my work. Digital marketing is a fast-paced
-														field, and situations often change without warning. I’m steady
-														under pressure, and I don’t get heated. Instead, I’m flexible,
-														working to right the situation without losing control.</p>
+														uplifting attitude to my work and study. Public Relation and
+														Marketing is a fast-paced field, and situations often change
+														without warning. I’m steady under pressure, and I don’t get
+														heated. Instead, I’m flexible, working to right the situation
+														without losing control.
+													</p>
 												</div>
 
 											</div>
@@ -1693,6 +1749,15 @@
 	<script type="text/javascript" defer="defer" src="js/frontend-builder-scripts.js"
 		id="et-builder-modules-script-js"></script>
 	<script type="text/javascript" defer="defer" src="js/common.js" id="et-core-common-js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
