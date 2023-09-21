@@ -50,6 +50,8 @@
 	<meta content="Jack v.1.0.0" name="generator">
 	<link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="classic-theme-styles-css" href="css/classic-themes.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<style id="global-styles-inline-css" type="text/css">
 		body {
 			--wp--preset--color--black: #000000;
@@ -390,7 +392,7 @@
 	</style>
 	<link rel="stylesheet" id="parent-style-css" href="css/style.dev.css" type="text/css" media="all">
 	<link rel="stylesheet" id="divi-style-css" href="css/style.css" type="text/css" media="all">
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" id="et-shortcodes-responsive-css-css" href="css/shortcodes_responsive.css" type="text/css"
 		media="all">
 	<link rel="stylesheet" id="magnific-popup-css" href="css/magnific_popup.css" type="text/css" media="all">
@@ -427,6 +429,15 @@
 		onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)">
 	<script data-cfasync="false" id="ao_optimized_gfonts_webfontloader"
 		type="text/javascript">(function () { var wf = document.createElement('script'); wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })();</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </head>
 
 <body
@@ -437,18 +448,6 @@
 
 		<header id="main-header" data-height-onload="66">
 			<div class="container clearfix et_menu_container">
-				<!-- <div class="logo_container">
-					<span class="logo_helper"></span>
-					<a href="index.html">
-						<noscript><img src="images/logo-dark%402x.png"
-								alt="Jack Parrish&#039;s Digital Resume and Portfolio" id="logo"
-								data-height-percentage="49"></noscript><img class="lazyload"
-							src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E"
-							data-src="https://jackmparrish.com/wp-content/uploads/2018/10/logo-dark@2x.png"
-							alt="Jack Parrish&#039;s Digital Resume and Portfolio" id="logo"
-							data-height-percentage="49">
-					</a>
-				</div> -->
 				<div id="et-top-navigation" data-height="66" data-fixed-height="40">
 					<nav id="top-menu-nav">
 						<ul id="top-menu" class="nav">
@@ -468,23 +467,27 @@
 									</li>
 									<li id="menu-item-1374"
 										class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1374">
-										<div style="width:250px;"><a href="research_planning.html">Research & Planning</a>
+										<div style="width:250px;"><a href="research_planning.html">Research &
+												Planning</a>
 										</div>
 									</li>
 									<li id="menu-item-1378"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1378">
-										<div style="width:250px;"><a href="strategy_development.html">Strategy Development</a></div>
+										<div style="width:250px;"><a href="strategy_development.html">Strategy
+												Development</a></div>
 									</li>
 									<li id="menu-item-1380"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1380">
 										<div class="d-flex align-middle">
-											<div style="width:250px;"><a href="key_relation_mapping.html">Key Relation Mapping</a></div>
+											<div style="width:250px;"><a href="key_relation_mapping.html">Key Relation
+													Mapping</a></div>
 										</div>
 									</li>
 									<li id="menu-item-1381"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
 										<div class="d-flex align-middle">
-											<div style="width:250px;"><a href="message_development.html">Message Development</a></div>
+											<div style="width:250px;"><a href="message_development.html">Message
+													Development</a></div>
 										</div>
 									</li>
 									<li id="menu-item-1381"
@@ -517,7 +520,8 @@
 											</li>
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
-												<a href="mission_statement.html" style="width:300px;">Mission Statement</a>
+												<a href="mission_statement.html" style="width:300px;">Mission
+													Statement</a>
 											</li>
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
@@ -533,7 +537,8 @@
 											</li>
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
-												<a href="mock_interview.html" style="width:300px;">Mock Interview | Media
+												<a href="mock_interview.html" style="width:300px;">Mock Interview |
+													Media
 													Preparation</a>
 											</li>
 											<li id="menu-item-2160"
@@ -542,20 +547,23 @@
 											</li>
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
-												<a href="sponsored_content.html" style="width:300px;">Sponsored Content</a>
+												<a href="sponsored_content.html" style="width:300px;">Sponsored
+													Content</a>
 											</li>
 										</ul>
 									</li>
 									<li id="menu-item-1381"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
 										<div class="d-flex align-middle">
-											<div style="width:250px;"><a href="execution_implementation.html">Execution & Implementation</a></div>
+											<div style="width:250px;"><a href="execution_implementation.html">Execution
+													& Implementation</a></div>
 										</div>
 									</li>
 									<li id="menu-item-1381"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
 										<div class="d-flex align-middle">
-											<div style="width:250px;"><a href="monitor_evaluation.html">Monitor & Evaluation</a></div>
+											<div style="width:250px;"><a href="monitor_evaluation.html">Monitor &
+													Evaluation</a></div>
 										</div>
 									</li>
 								</ul>
@@ -596,13 +604,41 @@
 									</li>
 								</ul>
 							</li>
+							<li id="menu-item-1384"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1384"><a
+									href="my-blog.html">My Blog</a></li>
+							<li id="menu-item-1414"
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1414"><a
+									href="about.html">About</a></li>
 							<li id="menu-item-1383"
 								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"><a
 									href="contact.html">Contact Me</a></li>
 						</ul>
 					</nav>
+
+
+
+					<div id="et_top_search">
+						<span id="et_search_icon"></span>
+					</div>
+
+					<div id="et_mobile_nav_menu">
+						<div class="mobile_nav closed">
+							<span class="select_page">Select Page</span>
+							<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+						</div>
+					</div>
 				</div> <!-- #et-top-navigation -->
 			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://jackmparrish.com/">
+						<input type="search" class="et-search-field" placeholder="Search &hellip;" value name="s"
+							title="Search for:">
+					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
 		</header> <!-- #main-header -->
 		<div id="et-main-area">
 
@@ -684,13 +720,28 @@
 																width="1080" height="675"> </a> -->
 
 														<h2 class="entry-title">Here&#8217;s
-																Why Mark Zuckerberg&#8217;s Apology Isn&#8217;t Even an
-																Apology</h2>
+															Why Mark Zuckerberg&#8217;s Apology Isn&#8217;t Even an
+															Apology</h2>
 														<div class="post-content">
-															<p>Every year IN HOPE charity is a not-for-profit organization that helps supply schools with snacks and food for children who come to school hungry. The important work that they do helps more than 150 schools across the province. Many schools rely on the assistance to provide meals and snacks for children who need them. </p>
+															<p>Every year IN HOPE charity is a not-for-profit
+																organization that helps supply schools with snacks and
+																food for children who come to school hungry. The
+																important work that they do helps more than 150 schools
+																across the province. Many schools rely on the assistance
+																to provide meals and snacks for children who need them.
+															</p>
 														</div><br>
 														<div class="post-content">
-															<p>Every year they run a fundraising campaign from January 13 to February 28, that encourages members of the local community to bake cookies and sell them to support the charity. All profits go back to the charity. This year the charity wants to promote this fundraising campaign across media outlets, secure coverage and encourage people to host local bake sales to show support. They also need to reach their $100,000 goal. On February 27, they will host a big event from their office in Toronto, where staff and volunteers typically bake goods.</p>
+															<p>Every year they run a fundraising campaign from January
+																13 to February 28, that encourages members of the local
+																community to bake cookies and sell them to support the
+																charity. All profits go back to the charity. This year
+																the charity wants to promote this fundraising campaign
+																across media outlets, secure coverage and encourage
+																people to host local bake sales to show support. They
+																also need to reach their $100,000 goal. On February 27,
+																they will host a big event from their office in Toronto,
+																where staff and volunteers typically bake goods.</p>
 														</div>
 													</article> <!-- .et_pb_post -->
 													<div class="pagination clearfix">
@@ -733,7 +784,7 @@
 										<span>Twitter</span>
 									</a>
 								</li>
-	
+
 							</ul>
 							<div id="footer-info">©Designed by Abhay Parekh. All rights reserved.</div>
 						</div> <!-- .container -->
