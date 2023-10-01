@@ -6770,6 +6770,13 @@ a.et_pb_more_button:after,
 	padding: 20px 0;
 }
 
+.footernew {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .nav li ul {
 	visibility: hidden;
 	z-index: 9999;
