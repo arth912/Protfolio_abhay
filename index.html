@@ -17,7 +17,7 @@
 	<meta name="robots" content="max-image-preview:large">
 
 	<!-- This site is optimized with the Yoast SEO plugin v11.8 - https://yoast.com/wordpress/plugins/seo/ -->
-	
+
 	<link rel="canonical" href="http://abhayparekh.com/">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
@@ -428,12 +428,14 @@
 					<nav id="top-menu-nav">
 						<ul id="top-menu" class="nav">
 							<li id="menu-item-11"
-								class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11">
-								<a href="index.html" aria-current="page">Home</a>
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383">
+								<a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"
+									href="index.html" aria-current="page">Home</a>
 							</li>
 							<li id="menu-item-1416"
 								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1416">
-								<a>Portfolio</a>
+								<a
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383" style="color: white;">Portfolio</a>
 								<ul class="sub-menu" style="width: 300px;">
 									<li id="menu-item-1379"
 										class="menu-item menu-item-type-post_type menu-item-object-project menu-item-1379">
@@ -468,27 +470,31 @@
 									</li>
 									<li id="menu-item-1381"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
-										<div class="d-flex align-middle">
-											<div style="width:250px;"><a href="index.html">Media Relation</a></div>
+										<!-- <div class="d-flex align-middle">
+											<div style="width:250px;">
+												<a href="index.html">Media Relation</a>
+											</div>
 											<div class="mt-2">
 												<i class="bi bi-chevron-right text-light"></i>
 											</div>
-										</div>
+										</div> -->
+										<a style="width:270px;" href="index.html">Media Relation</a>
 										<ul class="sub-menu">
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
 												<a href="media_advisory.html" style="width:250px;">Media advisory</a>
 											</li>
-										</ul>
+										</ul> 
 									</li>
 									<li id="menu-item-1381"
 										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1381">
-										<div class="d-flex align-middle">
+										<!-- <div class="d-flex align-middle">
 											<div style="width:250px;"><a href="index.html">Content Creation</a></div>
 											<div class="mt-2">
 												<i class="bi bi-chevron-right text-light"></i>
 											</div>
-										</div>
+										</div> -->
+										<a href="index.html" style="width:270px;">Content Creation</a>
 										<ul class="sub-menu">
 											<li id="menu-item-2160"
 												class="menu-item menu-item-type-post_type menu-item-object-project menu-item-2160">
@@ -546,7 +552,8 @@
 							</li>
 							<li id="menu-item-964"
 								class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-964">
-								<a>Resume</a>
+								<a
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383">Resume</a>
 								<ul class="sub-menu">
 									<li id="menu-item-961"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961">
@@ -581,15 +588,23 @@
 								</ul>
 							</li>
 							<li id="menu-item-1383"
-								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"><a
-									href="contact.html">Contact Me</a></li>
+								class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383">
+								<a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"
+									href="contact.html">Contact Me</a>
+							</li>
 						</ul>
 					</nav>
+					<div id="et_mobile_nav_menu">
+						<div class="mobile_nav closed">
+							<span class="select_page"></span>
+							<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+						</div>
+					</div>
 				</div> <!-- #et-top-navigation -->
 			</div> <!-- .container -->
 		</header> <!-- #main-header -->
-		<div id="et-main-area">
 
+		<div id="et-main-area">
 			<div id="main-content">
 				<article id="post-51" class="post-51 page type-page status-publish hentry">
 					<div class="entry-content">
@@ -1666,7 +1681,7 @@
 	<script type="text/javascript" id="divi-custom-script-js-extra">
 		/* <![CDATA[ */
 		var DIVI = { "item_count": "%d Item", "items_count": "%d Items" };
-/* ]]> */
+		/* ]]> */
 	</script>
 	<script type="text/javascript" defer="defer" src="js/custom.js" id="divi-custom-script-js"></script>
 	<script type="text/javascript" defer="defer" src="js/jquery.fitvids.js" id="divi-fitvids-js"></script>
@@ -1676,7 +1691,7 @@
 		/* <![CDATA[ */
 		var et_pb_custom = { "ajaxurl": "https:\/\/jackmparrish.com\/wp-admin\/admin-ajax.php", "images_uri": "https:\/\/jackmparrish.com\/wp-content\/themes\/Divi\/images", "builder_images_uri": "https:\/\/jackmparrish.com\/wp-content\/themes\/Divi\/includes\/builder\/images", "et_frontend_nonce": "08fb2526b0", "subscription_failed": "Please, check the fields below to make sure you entered the correct information.", "et_ab_log_nonce": "2e00f7f19b", "fill_message": "Please, fill in the following fields:", "contact_error_message": "Please, fix the following errors:", "invalid": "Invalid email", "captcha": "Captcha", "prev": "Prev", "previous": "Previous", "next": "Next", "wrong_captcha": "You entered the wrong number in captcha.", "ignore_waypoints": "no", "is_divi_theme_used": "1", "widget_search_selector": ".widget_search", "is_ab_testing_active": "", "page_id": "51", "unique_test_id": "", "ab_bounce_rate": "5", "is_cache_plugin_active": "yes", "is_shortcode_tracking": "", "tinymce_uri": "" };
 		var et_pb_box_shadow_elements = [];
-/* ]]> */
+		/* ]]> */
 	</script>
 	<script type="text/javascript" defer="defer" src="js/frontend-builder-scripts.js"
 		id="et-builder-modules-script-js"></script>
