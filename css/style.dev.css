@@ -2662,7 +2662,7 @@ figure.woocommerce-product-gallery__wrapper {
 
 #top-menu li li {
 	margin: 0;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 
 #top-menu li li a {
@@ -6811,8 +6811,8 @@ a.et_pb_more_button:after,
 }
 
 .nav li.et-reverse-direction-nav li ul {
-	right: 240px;
-	left: auto;
+	/* right: 240px;
+	left: auto; */
 }
 
 .nav li:hover {
