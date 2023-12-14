@@ -6780,7 +6780,7 @@ a.et_pb_more_button:after,
 .nav li ul {
 	visibility: hidden;
 	z-index: 9999;
-	width: 330px;
+	width: 360px;
 	border-top: 3px solid #2ea3f2;
 	opacity: 0;
 	background: #fff;
